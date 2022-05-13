@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Storage",
+		"color": "62933e",
+		"aliases": [],
+		"description": "AWS-Storage와 관련된 이슈"
+	},
+	{
+		"name": "Network",
+		"color": "8054dc",
+		"aliases": [],
+		"description": "AWS-Network와 관련된 이슈"
+	}
+]

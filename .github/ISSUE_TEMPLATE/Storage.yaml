@@ -1,0 +1,28 @@
+name: Storage
+description: For Storage
+title: "[Storage]: "
+labels: ["Storage"]
+assignees:
+  - Jack-R-lantern
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Storage 학습과 관련된 이슈를 작성해주세요.
+  - type: dropdown
+    attributes:
+      label: Storage Service
+      description: 학습할 Storage를 선택해주세요.
+      multiple: true
+      options:
+        - S3
+        - EBS
+        - EFS
+        - Snow
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Task List
+    validations:
+      required: true
